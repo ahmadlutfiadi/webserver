@@ -36,8 +36,8 @@ weatherForm.addEventListener('submit', (e) => {
             } else {
                 messageOne.textContent=data.location
                 //console.log(data.location)
-                messageTwo.textContent=data.data.summary
-                //console.log(data.data.summary)
+                messageTwo.textContent=data.data
+                console.log(data)
             }
 
         })
